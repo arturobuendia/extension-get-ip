@@ -13,5 +13,11 @@ document.addEventListener("DOMContentLoaded", async function() {
     copyButton.addEventListener("click", function() {
         const ipText = ipElement.textContent.trim();
         navigator.clipboard.writeText(ipText)
+        .then(() => {
+            copyButton.innerText = " ✅ Copied";
+            setTimeout(() => {
+              copyButton.innerText = "📋 Copy";
+            }, 2000); // Restablecer el texto después de 2 segundos
+          })
       });
   });
