@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", async function() {
         const ipText = ipElement.textContent.trim();
         navigator.clipboard.writeText(ipText)
         .then(() => {
-            copyButton.innerText = " ✅ Copied";
+            copyButton.innerText = " ✅";
             setTimeout(() => {
               copyButton.innerText = "📋 Copy";
             }, 2000); // Restablecer el texto después de 2 segundos
