@@ -1,10 +1,11 @@
 {
   "manifest_version": 3,
-  "name": "Get my IP",
+  "name": "Get My IP",
   "description": "Get Ip Address quickly. No trackers or ads, no strange permissions, open source code",
   "version": "1.0",
   "action": {
     "default_popup": "hello.html",
     "default_icon": "logo.png"
-  }
+  },
+  "icons":{ "16": "logo.png", "48": "logo.png", "128": "logo.png"}
 }
