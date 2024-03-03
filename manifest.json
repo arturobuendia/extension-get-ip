@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Get my IP",
+  "description": "Get Ip Address quickly and witout trackers or ads, open source",
+  "version": "1.0",
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "hello_extensions.png"
+  }
+}
